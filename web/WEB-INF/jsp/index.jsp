@@ -31,6 +31,9 @@
                     <li class="nav-item">
                         <a style="margin-left:10px ;border: none" class="btn btn-outline-light"href="stockP.htm">Stock</a>
                     </li>
+                     <li class="nav-item">
+                        <a style="margin-left:10px ;border: none" class="btn btn-outline-light"href="usuariosIE.htm">Usuarios</a>
+                    </li>
                     <li class="nav-item">
                         <a style="margin-left:10px ;border: none" class="btn btn-outline-warning text-dark" href="login.htm">Login</a>
                     </li>
@@ -52,10 +55,12 @@
 
         </div>
     </nav>
+    
 
     <div class="container-fluid" mt-4 >
         <div class="card border-success mt-2">
             <div class="card-header bg-info text-white">
+                <center> <h2>VENTAS</h2> </center>
                 <a  style="border: none" class="btn btn-outline-warning text-dark" href="agregar.htm">Nueva Venta</a>
             </div>
 

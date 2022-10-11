@@ -49,6 +49,7 @@ public class Controlador {
         
 
     }
+    // muestra la vista con los datos listado de la BD
      @RequestMapping(value="bodegap.htm")
     public ModelAndView Listar2() {
         String sql = "select * from bodega";
@@ -92,6 +93,15 @@ public class Controlador {
      @RequestMapping("login.htm")
     public ModelAndView Agregar1() {
         mav.setViewName("login");
+        return mav;
+    }
+    //muestra la vista de usuarios internos y externos y lista los datos de BD
+    @RequestMapping(value="usuariosIE.htm")
+    public ModelAndView Listar5() {
+        String sql = "select * from usuario";
+        List dato5 = this.jdbcTemplate.queryForList(sql);
+        mav.addObject("lista5", dato5);
+        mav.setViewName("usuariosIE");
         return mav;
     }
 }

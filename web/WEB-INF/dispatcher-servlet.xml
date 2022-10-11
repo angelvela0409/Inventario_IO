@@ -25,6 +25,7 @@
                  <prop key="bodegap.htm">controlador</prop>
                  <prop key="login.htm">controlador</prop>
                  <prop key="stockP.htm">controlador</prop>
+                  <prop key="usuariosIE.htm">controlador</prop>
             </props>
         </property>
     </bean>
